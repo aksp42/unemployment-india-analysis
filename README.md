@@ -1,6 +1,6 @@
 # 📉 Unemployment Analysis with Python
 
-An end-to-end data analysis project examining unemployment trends across Indian states before and after the COVID-19 lockdown — built as **Task 2** of the CodeAlpha Data Science Internship.
+An end-to-end data analysis project examining unemployment trends across Indian states before and after the COVID-19 lockdown.
 
 The project goes beyond a notebook: it ships with a fully interactive, scrollable **data report** — *"Unemployment in India, read as a chart"* — combining narrative, live charts, a region × month heatmap, and a tuned regression model, all in a single self-contained HTML page.
 
@@ -45,7 +45,7 @@ The goal is to analyze unemployment rate data across Indian regions, understand 
 ## 🗂️ Project Structure
 
 ```
-Unemployment-Analysis-CodeAlpha/
+Unemployment-Analysis/
 ├── Unemployment_in_India.csv         # Dataset: region, date, area, unemployment rate, labour participation, employment
 ├── Unemployment_Analysis.ipynb       # Full analysis: EDA, COVID-19 split, seasonality, modeling
 ├── index.html                        # Interactive scrollable data report
@@ -122,11 +122,6 @@ python -m http.server 8000
 
 ---
 
-## 🙌 Acknowledgements
-
-Built as part of the **[CodeAlpha](https://www.codealpha.tech/)** Data Science Internship — Task 2: Unemployment Analysis with Python.
-
----
 
 ## 👩‍💻 Author
 
@@ -139,4 +134,4 @@ Video of the project : https://www.linkedin.com/feed/update/urn:li:ugcPost:74882
 ---
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the LICENSE file for details.
